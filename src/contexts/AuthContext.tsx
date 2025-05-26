@@ -1,8 +1,8 @@
 
-import React, { createContext, useContext, useEffect, useState } from "react";
-import { User } from "@supabase/supabase-js";
-import { supabase } from "@/integrations/supabase/client";
-import { toast } from "sonner";
+import React, { createContext, useContext, useEffect, useState } from 'react';
+import { User } from '@supabase/supabase-js';
+import { supabase } from '@/integrations/supabase/client';
+import { Alert } from 'react-native';
 
 type AuthContextType = {
   user: User | null;
@@ -56,15 +56,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       });
       
       if (error) {
-        toast.error(error.message);
+        Alert.alert('Error', error.message);
         return { error, data: null };
       }
       
-      toast.success("Signed in successfully!");
+      Alert.alert('Success', 'Signed in successfully!');
       return { error: null, data };
     } catch (error) {
       console.error("Error signing in:", error);
-      toast.error("An unexpected error occurred during sign in.");
+      Alert.alert('Error', 'An unexpected error occurred during sign in.');
       return { error, data: null };
     }
   };
@@ -77,15 +77,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
       });
       
       if (error) {
-        toast.error(error.message);
+        Alert.alert('Error', error.message);
         return { error, data: null };
       }
       
-      toast.success("Signed up successfully! Please check your email for verification.");
+      Alert.alert('Success', 'Signed up successfully! Please check your email for verification.');
       return { error: null, data };
     } catch (error) {
       console.error("Error signing up:", error);
-      toast.error("An unexpected error occurred during sign up.");
+      Alert.alert('Error', 'An unexpected error occurred during sign up.');
       return { error, data: null };
     }
   };
@@ -93,10 +93,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const signOut = async () => {
     try {
       await supabase.auth.signOut();
-      toast.success("Signed out successfully!");
+      Alert.alert('Success', 'Signed out successfully!');
     } catch (error) {
       console.error("Error signing out:", error);
-      toast.error("An error occurred while signing out.");
+      Alert.alert('Error', 'An error occurred while signing out.');
     }
   };
 
