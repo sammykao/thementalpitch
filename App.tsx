@@ -13,7 +13,7 @@ import Calendar from './src/screens/Calendar';
 import NewActivity from './src/screens/NewActivity';
 import Profile from './src/pages/Profile';
 import Settings from './src/pages/Settings';
-import TrainingJournal from './src/screens/TrainingJournal';
+import TrainingJournal from './src/pages/TrainingJournal';
 import GameJournal from './src/screens/GameJournal';
 import ImageryJournal from './src/screens/ImageryJournal';
 import FoodJournal from './src/screens/FoodJournal';
