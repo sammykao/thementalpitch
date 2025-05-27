@@ -20,6 +20,7 @@
     "@capacitor/keyboard": "^5.0.8",
     "@capacitor/status-bar": "^5.0.7",
     "@eslint/js": "^8.56.0",
+    "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "@react-native-async-storage/async-storage": "1.21.0",
     "@react-native/metro-config": "^0.72.11",
