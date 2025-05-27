@@ -11,7 +11,7 @@ import SignUp from './src/screens/SignUp';
 import Journal from './src/screens/Journal';
 import Calendar from './src/screens/Calendar';
 import NewActivity from './src/screens/NewActivity';
-import Profile from './src/screens/Profile';
+import Profile from './src/pages/Profile';
 import Settings from './src/screens/Settings';
 import TrainingJournal from './src/screens/TrainingJournal';
 import GameJournal from './src/screens/GameJournal';
