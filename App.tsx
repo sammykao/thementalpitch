@@ -17,7 +17,7 @@ import TrainingJournal from './src/pages/TrainingJournal';
 import GameJournal from './src/pages/GameJournal';
 import ImageryJournal from './src/pages/ImageryJournal';
 import FoodJournal from './src/pages/FoodJournal';
-import RehabJournal from './src/screens/RehabJournal';
+import RehabJournal from './src/pages/RehabJournal';
 import LiftJournal from './src/screens/LiftJournal';
 import Activities from './src/screens/Activities';
 import Home from './src/screens/Home';
