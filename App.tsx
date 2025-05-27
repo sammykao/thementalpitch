@@ -14,14 +14,14 @@ import NewActivity from './src/screens/NewActivity';
 import Profile from './src/pages/Profile';
 import Settings from './src/pages/Settings';
 import TrainingJournal from './src/pages/TrainingJournal';
-import GameJournal from './src/screens/GameJournal';
-import ImageryJournal from './src/screens/ImageryJournal';
-import FoodJournal from './src/screens/FoodJournal';
-import RehabJournal from './src/screens/RehabJournal';
-import LiftJournal from './src/screens/LiftJournal';
-import Activities from './src/screens/Activities';
+import GameJournal from './src/pages/GameJournal';
+import ImageryJournal from './src/pages/ImageryJournal';
+import FoodJournal from './src/pages/FoodJournal';
+import RehabJournal from './src/pages/RehabJournal';
+import LiftJournal from './src/pages/LiftJournal';
+import Activities from './src/pages/Activities';
 import Home from './src/screens/Home';
-import NotFound from './src/screens/NotFound';
+import NotFound from './src/pages/NotFound';
 
 const Stack = createNativeStackNavigator();
 
