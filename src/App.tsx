@@ -9,7 +9,7 @@ import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 import Journal from "./pages/Journal";
 import Calendar from "./pages/Calendar";
-import NewActivity from "./screens/NewActivity";
+import NewActivity from "./pages/NewActivity";
 import JournalEntries from "./pages/JournalEntries";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
