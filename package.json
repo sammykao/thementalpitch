@@ -21,6 +21,7 @@
     "@capacitor/status-bar": "^5.0.7",
     "@eslint/js": "^8.56.0",
     "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-native/metro-config": "^0.72.11",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
     "@supabase/supabase-js": "^2.39.3",
